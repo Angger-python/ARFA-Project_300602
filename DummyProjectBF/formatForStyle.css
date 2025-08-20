@@ -1,0 +1,8 @@
+:root{
+    --warnaUtama : #FAF1E6;     /* background umum */
+    --warnaKedua : #FDFAF6;     /* section putih */
+    --warnaKetiga : #E4EFE7;    /* box highlight */
+    --fontUtama  : #386345;     /* warna teks judul / bold */
+    --fontSekunder : #6D6D6D;   /* warna teks isi yang lebih ringan */
+    --tombol   : #3D8361;       /* button color */
+}

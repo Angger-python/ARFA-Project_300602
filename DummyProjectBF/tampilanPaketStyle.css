@@ -1,0 +1,105 @@
+@import url('formatForStyle.css');
+
+body{
+    margin: 10px;
+    padding: 10px;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+@keyframes fadeIn{
+    to {
+        opacity: 1;
+    }
+}
+/* headerInformasiToolbarPaketBF */
+.informasiToolbarPaketBF{
+    background-color: var(--warnaUtama);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: var(--fontUtama);
+}
+.logo{
+    color: var(--fontUtama);
+    font-weight: bold;
+    font-size: 48px;
+}
+.tipePaketInternet{
+    color: var(--fontUtama);
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+}
+.paketInternet,.paketInternetTV{
+    background-color: var(--warnaKedua);
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        background-color: var(--warnaKetiga);
+        transform: scale(1.1);
+    }
+}
+/* endHeaderInformasiToolbarPaketBF */
+
+/* gridForPAketInternet */
+.gridForPaketInternet{
+    margin-top: 10px;
+    /* border: solid 1px black; */
+    border-radius: 8px;
+    background-color: var(--warnaKedua);
+    display: flex;
+    justify-content: center;
+}
+.coloumnDaftarPaket{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    padding: 10px;
+    /* border: solid 1px black; */
+    border-radius: 8px;
+}
+.infoPaket{
+    color: var(--fontUtama);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--warnaUtama);
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+.diskonPaket{
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    color: red;
+}
+
+/* endInfoPaket */
+
+/* contactMe */
+.contactMePosition{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.contactMeHref{
+    background-color: var(--warnaKetiga);
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        background-color: var(--warnaKedua);
+        color: var(--fontSekunder);
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
