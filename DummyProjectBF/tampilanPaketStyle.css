@@ -238,7 +238,7 @@ body{
     }
 }
 
-@media(max-width: 900px)
+@media(max-width: 320px)
 {   
     .informasiToolbar{
         display: flex;
@@ -363,3 +363,4 @@ body{
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
